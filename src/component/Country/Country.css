@@ -1,0 +1,21 @@
+.country_container{
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  max-width: 200px;
+  margin: auto;
+  
+}
+
+.country_flag{
+  
+  object-fit: cover;
+  height: 100px;
+  width: 200px;
+}
+
+.country_details{
+  padding: 0.5rem;
+}
