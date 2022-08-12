@@ -19,6 +19,7 @@ export const fetchCountries = async (region) => {
       capital: country.capital,
       region: country.region,
       name: country.name.common,
+      map: country.maps.googleMaps,
     }));
 
     return data;

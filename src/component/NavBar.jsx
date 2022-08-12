@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <h1>Where are you in world</h1>
+        <h1>Where are you in world?</h1>
       </div>
       <Outlet />
     </div>

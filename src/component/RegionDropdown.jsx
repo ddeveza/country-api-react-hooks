@@ -3,7 +3,7 @@ const RegionDropdown = ({ selectRegion }) => {
 
   return (
     <select name='region' id='region' onChange={selectRegion}>
-      <option value=''>Select Region</option>
+      <option value=''>All</option>
       {region.map((each) => (
         <option key={each} value={each.toLowerCase()}>
           {each}
