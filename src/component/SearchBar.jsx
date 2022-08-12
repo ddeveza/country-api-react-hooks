@@ -3,7 +3,7 @@ const SearchBar = ({ onSearch, query }) => {
     <div>
       <input
         type='text'
-        placeholder='Search Country'
+        placeholder='Search Country or Capital'
         onChange={(e) => {
           onSearch(e.target.value);
         }}
